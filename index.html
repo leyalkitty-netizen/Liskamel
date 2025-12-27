@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Liskamel | Inoxydable Accessories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #cfd8dc;
+      padding: 25px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #222;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    /* HERO */
+    .hero {
+      background-color: #eceff1;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+    }
+
+    .hero button {
+      margin-top: 25px;
+      padding: 14px 30px;
+      background-color: #607d8b;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    /* SECTIONS */
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section h3 {
+      text-align: center;
+      margin-bottom: 35px;
+      font-size: 1.9rem;
+    }
+
+    /* PRODUCTS */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .card h4 {
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-weight: 600;
+    }
+
+    .card a button {
+      margin-top: 12px;
+      padding: 10px 20px;
+      background-color: #607d8b;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* ABOUT & CONTACT */
+    .text-box {
+      max-width: 750px;
+      margin: auto;
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #cfd8dc;
+      padding: 25px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    footer a {
+      margin: 0 8px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>Liskamel</h1>
+  <p>High-quality inoxydable accessories made for everyone</p>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <h2>Elegant & Durable Accessories</h2>
+  <p>Bracelets • Necklaces • Rings • Keychains</p>
+  <button onclick="document.getElementById('shop').scrollIntoView()">Shop Now</button>
+</section>
+
+<!-- SHOP -->
+<section class="section" id="shop">
+  <h3>Our Products</h3>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300" alt="Bracelet">
+      <h4>Inox Bracelet</h4>
+      <p>250 MAD</p>
+      <a href="#"><button>Order</button></a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300" alt="Necklace">
+      <h4>Inox Necklace</h4>
+      <p>350 MAD</p>
+      <a href="#"><button>Order</button></a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300" alt="Ring">
+      <h4>Inox Ring</h4>
+      <p>200 MAD</p>
+      <a href="#"><button>Order</button></a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <h3>About Liskamel</h3>
+  <div class="text-box">
+    <p>
+      Liskamel is a brand specialized in inoxydable accessories designed for
+      elegance, durability, and style. Every piece is carefully crafted to
+      ensure long-lasting quality and modern design.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <h3>Contact</h3>
+  <div class="text-box">
+    <p>📧 Email: info@liskamel.com</p>
+    <p>📱 WhatsApp: +212 600000000 (update later)</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Liskamel — Premium Inox Accessories</p>
+</footer>
+
+</body>
+</html>
